@@ -53,12 +53,25 @@
         <p class="result"> </p>
         
     </div>
+
     <div>
         <br />
         </div>
     <div class="text-block"><br /> Message area: </div>
     <div id="vcomments"></div>
-   
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '6kjcxrfdWw1mJ2P4nCMMhgG7-gzGzoHsz',
+            appKey: 'qYPMPY2CyIUU0b3r4LA6Yjzp',
+            placeholder: 'Please leave a message',
+            avatar: 'mp',
+            recordIP: true,
+            enableQQ: true,
+            requiredFields: ['nick']
+        });
+    </script>
+
 </div>
 <div hidden>
     <script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1280609189&web_id=1280609189"></script>
