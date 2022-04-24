@@ -13,14 +13,14 @@
     <script type="text/javascript" src="/static/webfont.js"></script>
     <script type="text/javascript" src="/static/shiciweb.js"></script>
     <script
-            type="text/javascript">WebFont.load({ google: { families: ["Liu Jian Mao Cao:regular:chinese-simplified,latin", "Zhi Mang Xing:regular:chinese-simplified,latin", "Long Cang:regular:chinese-simplified,latin"] } });
+            type="text/javascript">WebFont.load({ google: { families: ["Liu Jian Mao Cao:regular:chinese-simplified,latin", "Zhi Mang Xing:regular: english,latin", "Long Cang:regular: english,latin"] } });
 
     </script>
 </head>
 <body class="body">
 <div>
     <div>
-        <h1 class="title">Recite poems in pairs</h1>
+        <h1 class="title">Make Chinese Poems</h1>
     </div>
     <div>
         <div class="text-block">
@@ -56,8 +56,7 @@
 
     <div>
         <br />
-        <a href="https://tieba.baidu.com/p/7603337529" target="_blank" rel="noopener noreferrer">If you have any questions, you can discuss them on Baidu Tieba</a><br />
-    </div>
+        </div>
     <div class="text-block"><br /> Message area: </div>
     <div id="vcomments"></div>
     <script>
